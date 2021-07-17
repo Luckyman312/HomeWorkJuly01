@@ -6,7 +6,7 @@ public class Solution {
 
         LeftPocket leftPocket = new LeftPocket();
         leftPocket.setName("Iphone");
-        leftPocket.setModel("11X pro");
+        leftPocket.setModel("11X ");
         leftPocket.setSerialNumber(1546884);
         leftPocket.setPrice(1500);
 
@@ -16,17 +16,17 @@ public class Solution {
         rightPocket.setSymbol('$');
 
 
-        System.out.println("In left pocket we have ;  ");
-        System.out.println("Phone name -  " + leftPocket.getName()+";" + "\nPhone serial # - " + leftPocket.getSerialNumber()+";" +
+        System.out.println("In left pocket we have ; ");
+        System.out.println("Phone name - " + leftPocket.getName()+";" + "\nPhone serial # - " + leftPocket.getSerialNumber()+";" +
                 "\nPhone model - " +leftPocket.getModel()+";" + "\nPhone price - " + leftPocket.getPrice()+";");
 
 
         System.out.println("--------------------");
 
         System.out.println("In right pocket we have;  ");
-        System.out.println("Dollar country " + rightPocket.getCountry()+  " ;"  + "\ndollar price is " + rightPocket.getPrice()+ ";"  +
+        System.out.println("Dollar country - " + rightPocket.getCountry() + ";"  + "\ndollar price is  - " + rightPocket.getPrice()+ ";"  +
                 "\n" +
-                "Dollar Symbol is  " + rightPocket.getSymbol() + " ;" );
+                "Dollar Symbol is - " + rightPocket.getSymbol() + ";" );
 
     }
 
